@@ -8,6 +8,7 @@ import json
 weather_api_key = os.getenv('VISUAL_CROSSING_API_KEY')
 redis_url = os.getenv('REDIS_URL')
 
+
 redis_client = redis.from_url(
     redis_url,
     decode_responses=True
